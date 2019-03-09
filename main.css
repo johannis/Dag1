@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.inputSection {
+  margin: 20px 0px 80px 0px;
+  width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 8px;
+  color: white;
+}
+
+.buttonAdd {
+  background-color: #4E59D1;
+  border: 2px solid #3945D1;
+  margin-top: 10px;
+}
+
+.buttonChoose {
+  background-color: #09AC57;
+  border: 2px solid #14B224;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
